@@ -1,4 +1,4 @@
 package ro.utcn.pt.assignment4.DataLayer;
 
-public class Menu {
+public class OrderOp {
 }
