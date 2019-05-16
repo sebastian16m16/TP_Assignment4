@@ -89,7 +89,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="2bbd1" class="javax.swing.JTable" binding="table1" default-binding="true">
+          <component id="2bbd1" class="javax.swing.JTable" binding="resultsTable" default-binding="true">
             <constraints/>
             <properties/>
           </component>

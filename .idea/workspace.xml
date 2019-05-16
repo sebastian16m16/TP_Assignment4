@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15961b52-33ed-4f3b-ae13-4eff9ab4ed66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/UserOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/LoginOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/OrderOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/UserDBOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DishOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/DataLayer/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ro/utcn/pt/assignment4/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ro/utcn/pt/assignment4/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,19 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="343">
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1831#2045#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DishOp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -80,45 +55,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="286">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#getMenu#0;class#AdminOp#0" />
+                <element signature="method#insertDish#0;class#AdminOp#0" />
+                <element signature="method#deleteDish#0;class#AdminOp#0" />
+                <element signature="method#editDishName#0;class#AdminOp#0" />
+                <element signature="method#editDishPrice#0;class#AdminOp#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/LoginOp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#isLoginOk#0;class#LoginOp#0" />
-                <element signature="method#isAdmin#0;class#LoginOp#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -152,10 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/LoginOp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DishOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" />
       </list>
     </option>
   </component>
@@ -317,6 +264,14 @@
       <option name="presentableId" value="Default" />
       <updated>1557999637442</updated>
     </task>
+    <task id="LOCAL-00001" summary="blue">
+      <created>1558006828616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558006828616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -328,10 +283,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="simpleUML" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.24939272" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -357,10 +312,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="simpleUML" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -380,6 +335,10 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blue" />
+    <option name="LAST_COMMIT_MESSAGE" value="blue" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/Business Layer/gfgf.kt">
@@ -539,23 +498,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/LoginOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="209">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getMenu#0;class#AdminOp#0" />
+            <element signature="method#isLoginOk#0;class#LoginOp#0" />
+            <element signature="method#isAdmin#0;class#LoginOp#0" />
           </folding>
         </state>
       </provider>
@@ -566,18 +516,6 @@
           <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/LoginOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isLoginOk#0;class#LoginOp#0" />
-            <element signature="method#isAdmin#0;class#LoginOp#0" />
           </folding>
         </state>
       </provider>
@@ -593,6 +531,32 @@
             <element signature="method#deleteDish#0;class#DishOp#0" />
             <element signature="method#editDishName#0;class#DishOp#0" />
             <element signature="method#editDishPrice#0;class#DishOp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/AdminOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="method#getMenu#0;class#AdminOp#0" />
+            <element signature="method#insertDish#0;class#AdminOp#0" />
+            <element signature="method#deleteDish#0;class#AdminOp#0" />
+            <element signature="method#editDishName#0;class#AdminOp#0" />
+            <element signature="method#editDishPrice#0;class#AdminOp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1831#2045#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
           </folding>
         </state>
       </provider>

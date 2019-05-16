@@ -16,5 +16,21 @@ public class AdminOp {
         return dishOp.getMenu(connection.connection);
     }
 
+    public void insertDish(String dish_name, double dish_price) throws SQLException{
+        dishOp.insertDish(connection.connection, dish_name, dish_price);
+    }
+
+    public void deleteDish(String dish_name) throws SQLException{
+        dishOp.deleteDish(connection.connection, dish_name);
+    }
+
+    public void editDishName(String dish_name, String newName) throws SQLException{
+        dishOp.editDishName(connection.connection, dish_name, newName);
+    }
+
+    public void editDishPrice(String dish_name, double newPrice) throws SQLException{
+        dishOp.editDishPrice(connection.connection, dish_name, newPrice);
+    }
+
 
 }
