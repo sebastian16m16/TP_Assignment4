@@ -10,8 +10,8 @@ public class LoginOp {
     public boolean isLoginOk(Connection connection, String username, String password) throws SQLException{
         String stmt = "Select * from login where username = ? and password = ?";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);
-        preparedStatement.setString(1, "username");
-        preparedStatement.setString(2, "password");
+        preparedStatement.setString(1, username);
+        preparedStatement.setString(2, password);
         ResultSet resultSet = preparedStatement.executeQuery();
 
         if(resultSet.next())

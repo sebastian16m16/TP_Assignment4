@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class DBConnection {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/ordermanagement";
+    static final String DB_URL = "jdbc:mysql://localhost/restaurant";
 
     static final String USER = "root";
     static final String PASS = "spune-miIshmael";

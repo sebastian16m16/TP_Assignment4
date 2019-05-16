@@ -17,9 +17,10 @@ public class Login extends JFrame{
 
         setTitle("Login");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
         setSize(400,700);
         getRootPane().setDefaultButton(loginButton);
+        setLocationRelativeTo(null);
+
         add(mainPanel);
 
         final LoginCheck loginCheck = new LoginCheck();

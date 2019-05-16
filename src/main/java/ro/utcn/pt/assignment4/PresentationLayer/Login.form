@@ -69,7 +69,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="4a89e" class="javax.swing.JPasswordField" binding="passwordField" default-binding="true">
         <constraints>
@@ -77,7 +79,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="c8044" class="javax.swing.JLabel">
         <constraints>

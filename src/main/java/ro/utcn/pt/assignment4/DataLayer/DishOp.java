@@ -20,18 +20,19 @@ public class DishOp {
 
         while(resultSet.next()){
             Dish foundDish = new Dish(resultSet.getInt("dish_id"),resultSet.getString("dish_name"),
-                    resultSet.getDouble("dish_price"));
+                    resultSet.getDouble("dish_price"), resultSet.getInt("Quantity"));
             menu.add(foundDish);
         }
 
         return menu;
     }
 
-    public void insertDish(Connection connection, String dish_name, double dish_price) throws SQLException{
-        String stmt = "Insert into dish (dish_name, dish_price) values (?, ?)";
+    public void insertDish(Connection connection, String dish_name, double dish_price, int quantity) throws SQLException{
+        String stmt = "Insert into dish (dish_name, dish_price, quantity) values (?, ?, ?)";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);
         preparedStatement.setString(1, dish_name);
         preparedStatement.setDouble(2, dish_price);
+        preparedStatement.setInt(3, quantity);
         preparedStatement.executeUpdate();
     }
 
@@ -56,5 +57,24 @@ public class DishOp {
         preparedStatement.setDouble(1, newPrice);
         preparedStatement.setString(2, dish_name);
         preparedStatement.executeUpdate();
+    }
+
+    public void editDishQuantity(Connection connection, String dish_name, int newQuantity) throws SQLException{
+        String stmt = "Update Dish set quantity = ? where dish_name = ?";
+        PreparedStatement preparedStatement = connection.prepareStatement(stmt);
+        preparedStatement.setDouble(1, newQuantity);
+        preparedStatement.setString(2, dish_name);
+        preparedStatement.executeUpdate();
+    }
+
+    public boolean existsDish(Connection connection, String dish_name) throws SQLException{
+        String stmt = "Select * from dish where dish_name = ?";
+        PreparedStatement preparedStatement = connection.prepareStatement(stmt);
+        preparedStatement.setString(1, dish_name);
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        if(resultSet.next())
+            return true;
+        return false;
     }
 }

@@ -16,8 +16,8 @@ public class AdminOp {
         return dishOp.getMenu(connection.connection);
     }
 
-    public void insertDish(String dish_name, double dish_price) throws SQLException{
-        dishOp.insertDish(connection.connection, dish_name, dish_price);
+    public void insertDish(String dish_name, double dish_price, int quantity) throws SQLException{
+        dishOp.insertDish(connection.connection, dish_name, dish_price, quantity);
     }
 
     public void deleteDish(String dish_name) throws SQLException{
@@ -31,6 +31,16 @@ public class AdminOp {
     public void editDishPrice(String dish_name, double newPrice) throws SQLException{
         dishOp.editDishPrice(connection.connection, dish_name, newPrice);
     }
+
+    public void editDishQuantity(String dish_name, int newQuantity) throws SQLException{
+        dishOp.editDishQuantity(connection.connection, dish_name, newQuantity);
+    }
+
+    public boolean existsDish(String dish_name) throws SQLException{
+        return dishOp.existsDish(connection.connection, dish_name);
+    }
+
+
 
 
 }
