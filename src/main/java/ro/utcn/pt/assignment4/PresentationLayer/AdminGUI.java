@@ -24,6 +24,9 @@ public class AdminGUI extends JFrame {
     AdminOp adminOp = new AdminOp();
 
     public AdminGUI(){
+
+        setContentPane(mainPanel);
+        pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1200, 800);
         setLocationRelativeTo(null);
@@ -31,7 +34,8 @@ public class AdminGUI extends JFrame {
         getRootPane().setDefaultButton(viewMenuButton);
 
 
-        add(mainPanel);
+
+
         Object[] columns = {"Dish ID", "Dish NAME", "Dish PRICE", "Quantity [g]"};
         final DefaultTableModel tableModel = new DefaultTableModel();
 

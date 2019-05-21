@@ -6,6 +6,7 @@ import ro.utcn.pt.assignment4.DataLayer.LoginOp;
 import java.sql.SQLException;
 
 public class LoginCheck {
+
     DBConnection connection = DBConnection.getConnection();
     LoginOp loginOp = new LoginOp();
 

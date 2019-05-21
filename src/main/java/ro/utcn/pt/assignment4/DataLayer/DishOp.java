@@ -77,4 +77,26 @@ public class DishOp {
             return true;
         return false;
     }
+
+    public Dish getDish(Connection connection, String dish_name) throws SQLException{
+        String stmt = "Select * from Dish where dish_name = ?";
+        PreparedStatement preparedStatement = connection.prepareStatement(stmt);
+        preparedStatement.setString(1, dish_name);
+        Dish dish = new Dish();
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        while(resultSet.next()){
+            dish.setDish_id(resultSet.getInt("dish_id"));
+            dish.setDish_name(resultSet.getString("dish_name"));
+            dish.setDish_price(resultSet.getDouble("dish_price"));
+            dish.setQuantity(resultSet.getInt("quantity"));
+
+        }
+
+        String name = dish.getDish_name();
+        double price = dish.getDish_price();
+
+        return dish;
+    }
 }
