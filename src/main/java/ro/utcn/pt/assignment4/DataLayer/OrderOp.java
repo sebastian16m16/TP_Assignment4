@@ -8,8 +8,17 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+/**
+ * This Class operates the Order Table
+ */
 public class OrderOp {
 
+    /**
+     * Adds a new order to the Data Base
+     * @param connection
+     * @param order
+     * @throws SQLException
+     */
     public void addOrder(Connection connection, Order order)throws SQLException{
         String stmt = "Insert into Orders (dish_id, dish_name, quantity, totalSum, tableNr) values (?, ?, ?, ?, ?)";
 
@@ -23,6 +32,12 @@ public class OrderOp {
         preparedStatement.executeUpdate();
     }
 
+    /**
+     * Gets all the orders from the data base
+     * @param connection
+     * @return Array list that contains all the orders
+     * @throws SQLException
+     */
     public ArrayList<Order> getAllOrders(Connection connection) throws SQLException{
         String stmt = "Select * from Orders";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);
@@ -42,6 +57,12 @@ public class OrderOp {
         return allOrders;
     }
 
+    /**
+     * Deletes an order
+     * @param connection
+     * @param id
+     * @throws SQLException
+     */
     public void deleteOrder(Connection connection, int id) throws SQLException{
         String stmt = "Delete from orders where order_id = ?";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);
@@ -49,6 +70,13 @@ public class OrderOp {
         preparedStatement.executeUpdate();
     }
 
+    /**
+     * Tells if the order exists
+     * @param connection
+     * @param id
+     * @return true or false
+     * @throws SQLException
+     */
     public boolean existsOrder(Connection connection, int id) throws SQLException{
         String stmt = "Select * from orders where order_id = ?";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);
@@ -61,6 +89,11 @@ public class OrderOp {
         return false;
     }
 
+    /**
+     * Deletes all the items from the order table
+     * @param connection
+     * @throws SQLException
+     */
     public void deleteAll(Connection connection) throws SQLException{
         String stmt = "Delete from Orders";
         PreparedStatement preparedStatement = connection.prepareStatement(stmt);

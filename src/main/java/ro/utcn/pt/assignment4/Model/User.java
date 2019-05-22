@@ -1,5 +1,6 @@
 package ro.utcn.pt.assignment4.Model;
 
+
 public class User {
 
     protected int user_id;

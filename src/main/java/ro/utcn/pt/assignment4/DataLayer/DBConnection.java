@@ -2,7 +2,9 @@ package ro.utcn.pt.assignment4.DataLayer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-
+/**
+ *  Creates the connection to the Data Base
+ * */
 public class DBConnection {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost/restaurant";

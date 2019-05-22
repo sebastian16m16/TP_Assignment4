@@ -13,6 +13,9 @@ import java.awt.event.ActionListener;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+/**
+ * Creates the view of the Waiter Window
+ */
 public class UserGUI extends JFrame implements Subject{
     private JPanel mainPanel;
     private JButton newOrderButton;
@@ -26,6 +29,9 @@ public class UserGUI extends JFrame implements Subject{
 
     ArrayList<Order> orders = new ArrayList<>();
 
+    /**
+     * Constructor for the waiter window
+     */
     public UserGUI(){
 
         setTitle("Waiter");
@@ -85,7 +91,9 @@ public class UserGUI extends JFrame implements Subject{
         centerRenderer.setHorizontalAlignment(JLabel.CENTER);
         resultsTable.setDefaultRenderer(Object.class, centerRenderer);
 
-
+    /**
+     * Add new order button
+     */
         newOrderButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -94,7 +102,6 @@ public class UserGUI extends JFrame implements Subject{
                 createOrderGUI.setVisible(true);
             }
         });
-
 
 
         deleteAllButton.setBackground(Color.black);
@@ -167,7 +174,9 @@ public class UserGUI extends JFrame implements Subject{
     }
 
 
-
+    /**
+     * Implements the Subject interface method
+     */
     @Override
     public void notifyChef() {
         UserOp userOp = new UserOp();

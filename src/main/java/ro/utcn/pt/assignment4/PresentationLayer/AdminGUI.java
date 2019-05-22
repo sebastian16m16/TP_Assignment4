@@ -13,6 +13,9 @@ import java.awt.event.ActionListener;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+/**
+ * Creates the Admin user interface
+ */
 public class AdminGUI extends JFrame {
     private JTable resultsTable;
     private JButton viewMenuButton;
@@ -23,6 +26,9 @@ public class AdminGUI extends JFrame {
 
     AdminOp adminOp = new AdminOp();
 
+    /**
+     * Constructor designs the window for the admin
+     */
     public AdminGUI(){
 
         setContentPane(mainPanel);

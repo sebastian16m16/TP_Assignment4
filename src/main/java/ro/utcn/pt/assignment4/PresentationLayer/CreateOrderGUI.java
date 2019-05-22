@@ -14,11 +14,12 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Observable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ * Creates a new order using a user interface
+ */
 public class CreateOrderGUI extends JFrame implements Subject {
     private JList menuList;
     private JList orderList;
@@ -36,6 +37,10 @@ public class CreateOrderGUI extends JFrame implements Subject {
     ChefWindow chef;
 
 
+    /**
+     * Constructor creates the window for creating an order
+     * @param chef
+     */
     public CreateOrderGUI(ChefWindow chef){
         setSize(1000, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -142,6 +147,12 @@ public class CreateOrderGUI extends JFrame implements Subject {
         });
     }
 
+    /**
+     * Creates the bill for the order
+     * @param order
+     * @param totalSum
+     * @param table
+     */
     private void createBill(ArrayList<String> order, double totalSum, int table){
         int nr = 1;
         UserOp userOp = new UserOp();
@@ -180,7 +191,9 @@ public class CreateOrderGUI extends JFrame implements Subject {
         }
     }
 
-
+    /**
+     * Implements the method from the subject Interface
+     */
     @Override
     public void notifyChef() {
         chef.update(newOrder);

@@ -7,6 +7,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 
+/**
+ * Provides the window for the login
+ */
 public class Login extends JFrame{
     private JTextField usernameField;
     private JPasswordField passwordField;
@@ -14,7 +17,9 @@ public class Login extends JFrame{
     private JPanel mainPanel;
 
 
-
+    /**
+     * Creates the login window
+     */
     public Login(){
 
 
