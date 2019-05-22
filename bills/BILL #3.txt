@@ -1,0 +1,20 @@
+Product: Rata cu 3 feluri de ciuperci  ..........  Price: 56.0 --- x8  448.0
+
+---------------
+
+
+-------TABLE 1--------
+Product: House Burger  ..........  Price: 30.0 --- x3  90.0
+
+---------------
+
+
+-------TABLE 1--------
+Product: Grand Papa  ..........  Price: 10.0 --- x1  10.0
+
+---------------
+
+
+-------TABLE 1--------
+Total Sum = 548.0 RON
+..................

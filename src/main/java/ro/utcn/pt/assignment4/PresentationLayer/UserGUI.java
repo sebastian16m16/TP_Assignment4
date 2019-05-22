@@ -47,7 +47,7 @@ public class UserGUI extends JFrame implements Subject{
         notifyChef();
 
 
-        Font font = new Font("", 1, 30);
+        Font font = new Font("", 1, 15);
         Font font1 = new Font("", Font.BOLD, 15);
 
         newOrderButton.setFont(font);

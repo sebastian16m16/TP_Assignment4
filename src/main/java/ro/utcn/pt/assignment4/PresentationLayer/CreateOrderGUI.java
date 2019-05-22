@@ -130,6 +130,7 @@ public class CreateOrderGUI extends JFrame implements Subject {
                     newOrder = userOp.getAllOrders();
                     notifyChef();
                     orderModel.clear();
+                    tableField.setText("");
                     int table = Integer.parseInt(tableField.getText());
                     double totalSum = Double.parseDouble(totalSumLabel.getText());
                     createBill(orders, totalSum, table);

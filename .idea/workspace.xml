@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15961b52-33ed-4f3b-ae13-4eff9ab4ed66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/ChefWindow.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/ChefWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/UserOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/BusinessLayer/UserOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DishOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/DishOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/OrderOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/OrderOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/LoginCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/UserOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/BusinessLayer/UserOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/DataLayer/DishOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/DataLayer/DishOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/DataLayer/OrderOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/DataLayer/OrderOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/Model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/Model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/AdminGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.form" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="191">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="132" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="137">
+              <caret line="80" column="65" lean-forward="true" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/OrderOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="1102">
               <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -217,123 +190,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="BusinessLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="DataLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="ChefWindow" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="CreateOrderGUI" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PT2019_32711_Muresan_Sebastian_Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="PresentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="UserGUI" type="e9f4de52:FormNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -430,7 +287,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="simpleUML" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.2574899" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32960895" />
@@ -438,7 +295,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39851025" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -661,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/DataLayer/OrderOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="1102">
           <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -670,20 +527,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="191">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/UserGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/utcn/pt/assignment4/PresentationLayer/CreateOrderGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="137">
+          <caret line="80" column="65" lean-forward="true" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
